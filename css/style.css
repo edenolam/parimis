@@ -1,0 +1,458 @@
+/* Reset CSS */
+/* Reset CSS */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	text-decoration: none;
+	font: inherit;
+	vertical-align: baseline;
+
+}
+
+
+/* --- ********************************************************************INPUT etc..************************************************** --- */
+label {
+margin-top:10px;
+display:block;
+font-family: 'Oswald', sans-serif;
+font-weight:300;
+padding-left: 15px;
+ }
+
+/**********input**********/
+
+input, textarea, select, option {
+ background-color:#FFF3F3;
+ }
+ 
+input, textarea, select {
+ padding:3px;
+ border:1px solid #F5C5C5;
+ border-radius:2px;
+width:200px;
+ }
+
+ textarea {
+   max-height: 125px;
+   max-width: 290px;
+}
+ 
+
+input[type=submit], input[type=reset] {
+margin: 30px 0 40px;
+cursor:pointer;
+background-color:#2f4643;
+color: #fff;
+padding: 10px;
+ }
+
+ legend {
+font-size:40px;
+     font-family: great vibes, serif;
+}
+
+fieldset {
+border: 1px solid #ccc;
+padding: 10px;
+margin: 10px;
+
+}
+h1, h2, h3{
+	font-size: 30px;
+	padding-top: 10px;
+	text-align: center;
+    font-family: "Great Vibes", serif;
+	
+}
+
+li{
+	list-style-type: none;
+}
+
+a{
+	color: #fff;
+	font-size: 20px;
+	text-decoration: none;
+    font-family: 'Great Vibes', serif;
+}
+p{
+	font-family: 'Comfortaa', sans-serif;
+	text-align: justify;
+	line-height: 1.6;
+	font-weight: 100;
+	font-style: italic;
+	font-size: 13px;
+}
+
+img{
+transition:all 0.7s;
+}
+
+img:hover{
+transform:scale(1.08);
+-webkit-transform:scale(1.08);
+-moz-transform:scale(1.08);
+-o-transform:scale(1.08);
+
+
+}
+
+
+
+/* **************************************************************************GENERAL****************************************************** */
+body{
+	background: url(../img/Black-Background-Fabric-2560x1600-by-Freeman.jpg) no-repeat center fixed;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+}
+
+ /* **************************************************************************************conteneur***************************************************** */
+#conteneur{
+	margin: auto;
+	width: 960px;
+}
+
+
+
+
+
+/* **************************************************************************************HEADER***************************************************** */
+/* **************************************************************************************HEADER***************************************************** */
+
+
+
+.header_gauche{
+	width: 300px;
+	float: left;
+}
+
+
+
+
+
+.header_centre{
+		width: 510px;
+		float: left;
+		height: 120px;
+	
+}
+ .header_droit{
+ 		width: 150px;
+ 		float: left;
+ 		height: 120px;
+ }
+
+
+
+
+
+
+/* **************************************************************NAVIGUATION********************************************************* */
+/* **************************************************************NAVIGUATION********************************************************* */
+/* **************************************************************NAVIGUATION********************************************************* */
+nav{
+	float: left;
+	width: 100%;
+}
+nav ul{
+	background-color: #2F4643;
+	overflow: hidden;
+	padding: 0;
+	text-align: center;
+	margin: 0;
+	-webkit-transition: 0.4s;
+	-ms-transition: 0.4s;
+	-moz-transition: 0.4s;
+	-o-transition: 0.4s;
+	transition: 0.4s;
+}
+
+nav ul li{
+	display: inline-block;
+	padding: 10px;
+	
+}
+
+nav ul li a{
+	
+	color: #222;
+    font-family: 'Great Vibes', serif;
+	font-size: 25px;
+	padding: 10px;
+	transition: all .5s ease-in;
+	-webkit-transition: all .5s ease-in;
+	-ms-transition: all .5s ease-in;
+	-moz-transition: all .5s ease-in;
+	-o-transition: all .5s ease-in;
+	
+}
+
+nav ul li a:hover{
+	background-color: #2a2a2c;
+	color: #FFFFFF;	
+}
+
+.active{
+	background-color: #2a2a2c;
+	color: #FFFFFF;
+}
+
+
+.handle{
+	width: 100%;
+	background-color: #2a2a2c;
+	text-align: left;
+	box-sizing:border-box;
+	padding: 15px 10px;
+	cursor: pointer;
+    font-family: 'Great Vibes', serif;
+	 font-size: 25px;
+	 color: #fff;
+	 display: none;
+}
+
+/* --- ********************************************************************ALL PAGES************************************************** --- */
+/* --- ********************************************************************contenu_gauche************************************************** --- */
+
+#contenu_gauche  {
+background-color: #fff;
+width: 670px; 
+float:left;
+margin: 10px 10px 0 0;
+padding: 10px;
+}
+
+/**************************************************************************chambre, restaurant, spa **************************************************************/
+
+
+.chambre, .carte_resto, .soin{
+ float:left;
+ max-width: 660px;
+}
+.chambre img, .carte_resto img, .soin img{
+ margin: 10px;
+ float: left;
+ }
+
+
+/********************************************************************PLAN DU SITE*****************************************************************/
+/********************************************************************PLAN DU SITE*****************************************************************/
+/********************************************************************PLAN DU SITE*****************************************************************/
+.plan{
+background: url(../img/plan-maison-individuelle.jpg) ;
+}
+
+.plan a{	
+	color: #2a2a2c;
+}
+.plan a:hover{
+	color: #2a2a2d;
+}
+
+
+
+/******.presentation,cgv, mentions legales, actualite, evenement, qui_sommes_nous, avis, plan_acces, plan********************************/
+
+.presentation, 
+.panier,
+.conditions, 
+.mention_legales, 
+.actu, 
+.evenement, 
+.qui_sommes_nous, 
+.avis, 
+.plan_acces, 
+.plan{
+	max-width: 500px;
+    padding: 20px;
+	background-color:#DBDFE2;
+    margin: auto auto 10px;
+}
+
+
+/* **************************************************************************cote droit****************************************************** */
+
+
+#sidebar {
+	float:left;
+	width: 260px;
+}
+
+.contenu_droit_haut, .contenu_droit_bas {
+background-color: #cacaca;
+margin-top:10px;
+float: left;
+width: 100%;
+
+}
+
+.contenu_droit_haut fieldset, .contenu_droit_bas fieldset {
+border: 1px solid #fff;
+margin:10px;
+}
+
+.contenu_droit_haut form{
+display: block;
+margin: auto;
+
+}
+
+.contenu_droit_bas img{
+width: 150px;
+display: block;
+margin: auto;
+-moz-box-shadow: 5px 5px 3px 0 #656565;
+-webkit-box-shadow: 5px 5px 3px 0 #656565;
+-o-box-shadow: 5px 5px 3px 0 #656565;
+box-shadow: 5px 5px 3px 0 #656565;
+}
+
+
+
+
+/************************************************************************** FOOTER ****************************************************************/
+/************************************************************************** FOOTER ****************************************************************/
+/************************************************************************** FOOTER ***************************************************************/
+/************************************************************************** FOOTER ***************************************************************/
+#pied_page{
+	width: 100%;
+	float: left;
+	height: auto;
+	color: #fff;
+	position: relative;
+}
+#pied_page p{
+    font-family: great vibes, serif;
+}
+
+
+
+.liens{
+	float: left;
+	width: 700px;
+}
+.lien{
+	float: left;
+	padding: 5px;
+	
+
+}
+
+
+.bas_droit{
+	width: 260px;
+	float: left;
+	padding-top: 10px;
+}
+
+.bas_droit img{
+width:32px;
+display:inline;
+}
+
+.mentions{
+	float: left;
+	width: 100%;
+} 
+
+.mentions p{
+	text-align: center;
+}
+
+/******************media queries*****************/
+
+@media screen and (max-width: 900px){
+	#conteneur{
+		width: 100%;
+	}
+
+	.header_gauche{
+		width: 100%;		
+	}
+
+	.header_centre{
+		display: none;	
+	}
+
+	 .header_droit{
+	 	width: 100%;
+
+	 }
+	/****************menu**************/
+	nav ul{
+		max-height: 0;
+	}
+	
+	nav ul li{
+		box-sizing:border-box;
+	    width:100%;
+	    padding: 15px;
+	    text-align: left;
+		  
+	}
+	nav ul li:hover{
+		background-color: #2a2a2c;
+		color: #FFFFFF;
+		  
+	}
+
+
+
+	.showing{
+		max-height: 30em;
+	}
+
+	.handle{
+		display: block;
+	} 
+
+
+/**********contenu_gauche********/
+
+	#contenu_gauche{
+	width: 100%; 
+	float:left;
+}
+
+/**********sidebar********/
+
+	#sidebar {
+	width: 100%;
+	float: left;
+}
+
+.contenu_droit_haut form{
+text-align: center;
+
+}
+
+
+
+/**********footer********/
+  .liens{
+	float: left;
+	width: 100%;
+}
+
+.bas_droit{
+	width: 100%;
+	float: left;
+}
+
+}
+

@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="icon" type="image.png" href="img/logo_hotel.png" />	
+		<title>Parimis</title>
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/slider.css">
+		<link rel="stylesheet" href="css/diapo.css">
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Great+Vibes' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Marcellus' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Comfortaa:300' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>
+	</head>
+	<body>
+		<div id="conteneur">
+			
+			<header>
+				
+				<div class="header_gauche">
+					<a href="index.html"><img src="img/logo_hotel.png" /></a>
+				</div>
+				
+				<div class="header_centre"></div>
+
+				
+				<div class="header_droit">
+					<img style="float:right;" src="img/france.png">
+					<img style="float:right;" src="img/angleterre.png">
+					<br>
+					<hr>
+					<img style="float:right;" src="img/panier.png"> 
+					<a href="panier.html">Voir le panier</a>
+					<hr>
+					<img style="float:right;" src="img/loupe.png">
+					<form action="">
+					<input style="width:100px;" type="text" placeholder="Recherche..." />
+					</form>
+				</div>
+					
+			</header>
+		
+			<nav>
+				<ul>
+					<li><a href="index.html" >Accueil</a></li>
+					<li><a href="chambres.html">Chambres</a></li>
+					<li><a href="restaurant.html">Restaurant</a></li>
+					<li><a href="spa.html">Le Spa</a></li>
+					<li><a href="plan_acces.html">Plans & Accès</a></li>
+					<li><a href="contact.html">Contact</a></li>
+				</ul>	
+				<div class="handle">Menu</div>
+			</nav>
+			
+			
+			<section id="contenu_gauche">
+				
+					<div class="slider">
+						<ul>
+							<li><img src="img/montaignediapo.jpg" alt="montaigne"></li>
+							<li><img src="img/lobby1.jpg" alt="lobby"></li>
+							<li><img src="img/restaurant2.jpg" alt="restaurant"></li>
+							<li><img src="img/chambrediapo.jpg" alt="chambre"></li>
+							<li><img src="img/spa.jpg" alt="spa"></li>
+						</ul>	
+					</div>
+					<div id="slider-nav">
+						<img src="img/left.png" style="width:16px;" data-dir="prev" id="prev"/>
+						<img src="img/right.png" style="width:16px;" data-dir="next" id="next"/>
+					</div>
+					
+					
+					<h1>Hotel Parimis *****</h1>
+				<div class="presentation">
+					
+					<p>"Ecrin cossu de l'avenue Montaigne, l’hôtel Parimis jouit d’un emplacement rêvé au carrefour de la mode et de la culture.</p>
+					<p>L’élégante façade et l’architecture intérieure vous plongent d’emblée dans l’atmosphère unique de cet ancien hôtel particulier du 19 eme Siècle.</p>
+					<p>Chacune de ses 32 Chambres et 11 Suites a son propre caractère, raffinement des matières, chatoiement des couleurs et objets d’art créant un cadre unique dans chaque pièce.</p> 
+					<p>Les équipements modernes se fondent harmonieusement dans le décor (accès Wifi gratuit, téléviseurs LED…)</p> 
+					<p>Boiseries fines, cheminées, et jardin d’hiver sont autant de détails procurant une ambiance intime et apaisante aux Salons, au Bar, au Restaurant et au SPA.</p> 
+					<p>Le service soigné et discret, conjugué au style exclusif du décor, font de l’hôtel Parimis une adresse des plus raffinées.</p>
+					<p>"Que le prodigieux spectacle continue et que tu peux y apporter ta Rime..."</p>
+					<p>Walt Whiteman</p>
+					
+				</div> 
+
+			</section>
+			
+			<aside id="sidebar">
+				<div class="contenu_droit_haut">
+					<form method="post" action="">
+					<fieldset>
+						<legend>Reservation</legend>
+					
+						<label for="arrivee">Arrivée</label>
+						<input type="date" name="arrivee">
+						<br />
+						<label for="depart">Depart</label>
+						<input type="date" name="depart">
+						<br />
+
+						<label for="">Personnes</label>
+						<select>
+							  <option value="1">1</option>
+							  <option value="2">2</option>
+							  <option value="3">3</option>
+							  <option value="4">4</option>
+							  <option value="5">5</option>
+						</select>
+						<br />
+
+						<label for="">Type de chambre</label>
+						<select>
+							  <option value="classic">classic</option>
+							  <option value="comfort">comfort</option>
+							  <option value="deluxe">deluxe</option>
+							  <option value="suite">suite</option>
+  							</select>
+						<br />
+						<input  type="submit"  value="valider"/>				
+					
+					</fieldset>
+					</form>
+			</div>
+
+			<div class="contenu_droit_bas">
+				<fieldset>
+					<legend>Presse</legend>
+					<a href="http://www.lhotellerie-restauration.fr/">
+				<img src="img/presse-hotelliere.gif" alt="hotellerie-restauration.fr" />
+				</a>
+				</fieldset>
+				
+				
+			</div>
+			
+			</aside>
+
+			
+			<!-- debut footer -->
+			<footer id="pied_page">
+				
+				<div class="liens">
+					<div class="lien">
+					 <p>l'hôtel</p>
+					<ul>
+							<li><a href="qui_sommes_nous.html">qui somme nous?</a></li>
+							<li><a href="contact.html">nous contacter</a></li>
+							<li><a href="plan_acces.html">plan & accès</a></li>
+							<li><a href="recrutement.html">recrutement</a></li>
+							<li><a href="evenements.html">evénements</a></li>
+							<li><a href="http://www.lhotellerie-restauration.fr/">presse</a></li>
+					</ul>
+				</div>
+				<div class="lien">
+				<p>Liens divers</p>
+					<ul>	
+						<li><a href="plan_du_site.html">plan du site</a></li>
+						<li><a href="" onclick="window.print()">imprimer la page</a></li>
+						<li><a href="newsletter.html">newsletter</a></li>
+					</ul>
+				</div>
+				
+				
+				<div class="lien">
+				<p><a href="avis.html">Avis</a></p> 
+				</div>
+					
+				
+				<div class="lien">
+				<p><a href="actualites.html">Actualité</a></p> 
+				</div>
+			</div>
+			
+				
+				
+				<div class="bas_droit">
+						  <a href="http://facebook.com">
+						  <img src="img/logofacebook.png" alt="logo facebook" /></a>
+						  <a href="http://twitter.com">
+						  <img src="img/logotwitter.png" alt="logo twitter" /></a>
+						  <a href="http://google.com">
+						  <img src="img/logogoogle.png" alt="logo google" /></a>
+						  <a href="http://linkedin.com">
+						  <img src="img/logolinkedin.png" alt="logo linkedin" /></a>
+						  <a href="http://hotmail.com">
+						  <img src="img/logopartage.png" alt="logo partager" /></a>
+					</div>
+
+					<div class="mentions">
+						<p><a href="mentions_legales.html">Mentions légales</a>|<a href="cgv.html">Conditions générales de vente</a></p>
+						<p>© 2014 Conception et réalisation par Julien Basquin. Tous droits réservés.</p>
+					</div>
+
+			</footer>
+			<!-- fin footer -->
+		</div>
+		<script type='text/javascript' src='js/jquery.min.js'></script>
+		<script type='text/javascript' src='js/app.js'></script> 
+		<script type='text/javascript' src='js/slider.js'></script> 
+
+
+
+		<script>
+
+		/////////////////////////////////////////////////
+			(function  () {
+				var container = $('div.slider').css('overflow', 'hidden').children('ul'),
+					slider = new Slider(container, $('#slider-nav'));
+
+				slider.nav.find('img').on('click', function() {
+					slider.setCurrent($(this).data('dir'));
+					slider.transition();
+				});
+			})();
+		</script>
+	</body>
+</html>
+					
+							
+						
+						
+						
+						 
